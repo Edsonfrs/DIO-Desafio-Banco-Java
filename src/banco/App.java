@@ -1,3 +1,4 @@
+package banco;
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -9,6 +10,8 @@ public class App {
 
         cCorrente.depositar(150);
         cPoupanca.depositar(180);
+        cCorrente.depositar(560);
+
         
         cCorrente.depositar(296);
 
